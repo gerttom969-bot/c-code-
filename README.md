@@ -1,2 +1,2 @@
-# c-code-
-calculator
+js 
+hello typing
