@@ -1,0 +1,27 @@
+body {
+    background-color: #e2d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+
+h1 {
+    color: rgb(48, 47, 46);
+    font-size: 2.5rem;
+    position: relative;
+}
+
+/* Blinking cursor effect */
+h1::after {
+    content: '|';
+    animation: blink 0.7s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
